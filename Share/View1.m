@@ -97,6 +97,12 @@ NSString        *complete;
     UIImage                     *imgShare;
     UIActivityViewController    *actViewController;
     
+    for(int i = 1; i < 10; i++) {
+    
+        NSString *name = [NSString stringWithFormat:maNames, i];
+    
+    }
+    
     strShareMsg = @"Snoop";
     imgShare    = [UIImage imageNamed:@"snoop1.jpg"];
     aShareItems = @[imgShare, strShareMsg];
