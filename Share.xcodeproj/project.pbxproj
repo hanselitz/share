@@ -34,7 +34,6 @@
 		EFD47D2619EF0D9200FE22A6 /* snoop2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFD47D2319EF0D9200FE22A6 /* snoop2.jpg */; };
 		EFD47D2719EF0D9200FE22A6 /* snoop3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFD47D2419EF0D9200FE22A6 /* snoop3.jpg */; };
 		EFD47D2819EF0D9200FE22A6 /* snoop4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFD47D2519EF0D9200FE22A6 /* snoop4.jpg */; };
-		EFD47D2B19EF17B200FE22A6 /* View2.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD47D2A19EF17B200FE22A6 /* View2.m */; };
 		EFD47D2E19EF17C100FE22A6 /* View3.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD47D2D19EF17C100FE22A6 /* View3.m */; };
 		EFF3B1A619F0DA8500B99F6C /* aeromexico.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFF3B19F19F0DA8500B99F6C /* aeromexico.jpg */; };
 		EFF3B1A719F0DA8500B99F6C /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF3B1A019F0DA8500B99F6C /* clock.png */; };
@@ -92,8 +91,6 @@
 		EFD47D2319EF0D9200FE22A6 /* snoop2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = snoop2.jpg; path = ../../../../Downloads/snoop2.jpg; sourceTree = "<group>"; };
 		EFD47D2419EF0D9200FE22A6 /* snoop3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = snoop3.jpg; path = ../../../../Downloads/snoop3.jpg; sourceTree = "<group>"; };
 		EFD47D2519EF0D9200FE22A6 /* snoop4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = snoop4.jpg; path = ../../../../Downloads/snoop4.jpg; sourceTree = "<group>"; };
-		EFD47D2919EF17B200FE22A6 /* View2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View2.h; sourceTree = "<group>"; };
-		EFD47D2A19EF17B200FE22A6 /* View2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View2.m; sourceTree = "<group>"; };
 		EFD47D2C19EF17C100FE22A6 /* View3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View3.h; sourceTree = "<group>"; };
 		EFD47D2D19EF17C100FE22A6 /* View3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View3.m; sourceTree = "<group>"; };
 		EFF3B19F19F0DA8500B99F6C /* aeromexico.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = aeromexico.jpg; path = ../../../aeromexico.jpg; sourceTree = "<group>"; };
@@ -174,8 +171,6 @@
 				EFD47D1B19EF081C00FE22A6 /* View1.m */,
 				EFD47D2019EF0AD000FE22A6 /* cellWelcome.h */,
 				EFD47D2119EF0AD000FE22A6 /* cellWelcome.m */,
-				EFD47D2919EF17B200FE22A6 /* View2.h */,
-				EFD47D2A19EF17B200FE22A6 /* View2.m */,
 				EFD47D2C19EF17C100FE22A6 /* View3.h */,
 				EFD47D2D19EF17C100FE22A6 /* View3.m */,
 				EFD34C2A19F0C1E00007D350 /* ViewPicker.h */,
@@ -359,7 +354,6 @@
 				EFD47D2E19EF17C100FE22A6 /* View3.m in Sources */,
 				EFD47CF619EF075600FE22A6 /* AppDelegate.m in Sources */,
 				EFD47D1C19EF081C00FE22A6 /* View1.m in Sources */,
-				EFD47D2B19EF17B200FE22A6 /* View2.m in Sources */,
 				EFD47D2219EF0AD000FE22A6 /* cellWelcome.m in Sources */,
 				EFD47CF219EF075600FE22A6 /* main.m in Sources */,
 			);
