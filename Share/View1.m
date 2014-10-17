@@ -32,7 +32,7 @@ NSString        *complete;
     
     maNames     =  [NSMutableArray arrayWithObjects: @"Víctor", @"Eduardo", @"Guillermo", @"Sergio", @"Alfredo", @"Deimar", @"Wilder", @"Juan", @"Rafael", @"Lucio", nil];
     maLastNames     =  [NSMutableArray arrayWithObjects: @"Jímenez", @"Juarez", @"Madrazo", @"Wade", @"López", @"Hernández", @"Camacho", @"Cano", @"Trujillo", @"Yedra", nil];
-    maImages    =  [NSMutableArray arrayWithObjects: @"snoop1.jpg", @"snoop2.jpg", @"snoop3.jpg", @"snoop4.jpg", @"snoop6.jpg", @"snoop5.jpeg", @"ai1.jpeg", @"ai2.jpeg", @"ai3.jpg", @"ai4.jpg", nil];
+    maImages    =  [NSMutableArray arrayWithObjects: @"snoop1.jpg", @"snoop2.jpg", @"snoop3.jpg", @"snoop4.jpg", @"snoop5.jpg", @"snoop6.jpeg", @"ai1.jpeg", @"ai2.jpeg", @"ai3.jpg", @"ai4.jpg", nil];
     
     // Do any additional setup after loading the view.
 }
@@ -94,18 +94,17 @@ NSString        *complete;
 - (IBAction)btnSharePressed:(id)sender {
     NSString                    *strShareMsg;
     NSArray                     *aShareItems;
-    UIImage                     *imgShare;
     UIActivityViewController    *actViewController;
     
-    for(int i = 1; i < 10; i++) {
+    NSString *joinedString = [maNames componentsJoinedByString:@", "];
+    NSLog(@"%@", joinedString);
     
-        NSString *name = [NSString stringWithFormat:maNames, i];
+    UIAlertView *theAlert = [[UIAlertView alloc] initWithTitle:@"10 amigos" message:joinedString delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
     
-    }
+    [theAlert show];
+    strShareMsg = joinedString;
     
-    strShareMsg = @"Snoop";
-    imgShare    = [UIImage imageNamed:@"snoop1.jpg"];
-    aShareItems = @[imgShare, strShareMsg];
+    aShareItems = @[strShareMsg];
     
     actViewController = [[UIActivityViewController alloc] initWithActivityItems:aShareItems applicationActivities:nil];
     
